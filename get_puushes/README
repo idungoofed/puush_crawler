@@ -1,0 +1,7 @@
+bruteForce.c: first attempt
+bruteForce_v2.c: adds possibility for filenames that are 5 characters long (original only tested for 6)
+
+missingFile.jpg and privateFile.jpg: used for testing for empty puushes
+	Respectively, file doesn't exist or you don't have authorization to view that puush
+
+./bruteForce_results/: filenames for puushes that exist are stored in this directory
