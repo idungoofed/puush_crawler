@@ -4,5 +4,5 @@ bruteForce: bruteForce.c Makefile
 	gcc -Wall -std=c99 bruteForce.c -o bruteForce -pthread
 clean:
 	rm ./bruteForce_results/* -rf;
-	rm *~;
+	rm *~ &
 	rm bruteForce; rm bruteForce_v2
