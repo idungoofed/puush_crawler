@@ -1,0 +1,14 @@
+echo "Opening puushes"
+
+#./remove_end
+
+#get the file list -> fileList.txt
+#ls -1 ../get_puushes/bruteForce_results/puu.sh/ > ./fileList.txt
+ls -1 ../get_puushes/ > ./fileList.txt #debug
+#parse for number of files -> numFiles
+numFiles="$(wc -l fileList.txt)"
+numFiles=${numFiles% *}
+#echo $numFiles #debug
+
+#at this point, have fileList and numFiles
+

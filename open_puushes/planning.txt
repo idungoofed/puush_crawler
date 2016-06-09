@@ -1,0 +1,13 @@
+"ls ../get_files/bruteForce_results/puu.sh/ > ./fileList" to find number of files -> num_files
+for each line of file:
+    open "puu.sh/fileName"
+    wait for user to finish -> continue
+FLAG1
+ASK FOR QUIT, no = continue
+"ls ../get_files/bruteForce_results/puu.sh/ > ./fileList" to find number of files -> new_num_files
+if new_num_files > num_files, find differences
+for each difference:
+    open "puu.sh/fileName"
+    wait for user to finish -> continue
+num_files = new_num_files
+goto FLAG1

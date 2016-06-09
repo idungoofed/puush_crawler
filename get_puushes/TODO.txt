@@ -1,0 +1,4 @@
+for v3:
+    See TODO in v2
+    Add a check in the thread that stops it if some condition is met
+    	i.e. an ending file exists

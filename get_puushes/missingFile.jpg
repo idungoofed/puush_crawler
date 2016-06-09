@@ -1,0 +1,115 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta name="viewport" content="width=600"/>
+<title>puush / home</title>
+<link rel="stylesheet" media="screen" type="text/css" href="/css/base.css?poop"/>
+<meta name="description" content="puush is a super-quick way to share screenshots. Quickly capture any portion of your screen, upload any file, and share them with a short URL automatically placed in your clipboard. Share them with the world or make them private, for your eyes only."/>
+<link rel="canonical" href="http://puush.me/"/>
+</head>
+<body>
+<div id="content">
+<div id="home">
+<div id="header" onclick="window.location = '/'">
+<div class="content">
+<a href="/dl/puush.msi" class="download" id="win"></a>
+<a href="/dl/puush.zip" class="download" id="osx"></a>
+<a href="https://itunes.apple.com/au/app/puush/id386524126?mt=8" class="download" id="ios"></a>
+<div id="menu">
+<ul>
+<li><a href="/account">manage</a></li>
+<li><a href="/register">register</a></li>
+<li><a href="http://twitter.com/puushme">twitter</a></li>
+</ul>
+</div>
+</div>
+</div>
+<div id="box">
+<div class="content">
+<div class="eyecatch">
+<h1><strong>puush</strong> is a quick and simple way to share screenshots.</h1>
+<div class="center"><img src="/img/diagram.png"/></div>
+<div class="padded">Use keyboard shortcuts or drag-drop gestures to quickly capture any portion of your screen. These screenshots are near-instantly <strong>puush'd</strong>, leaving behind a short URL in your clipboard, perfect for sharing. Paste these easily into your Twitter, IRC or IM clients. Share them with the world or make them private, for your eyes only.</div>
+</div>
+<div class="eyecatch" style='padding:20px;'>
+<div style='text-align:center; font-size:200%;'>Redefining what puush is.</div>
+<div style='text-align:center; font-size: 150%; color: #999999; margin-bottom: 20px;'>2013-05-06</div>
+<style>p{margin-bottom:10px;}ul ul{margin-left:10px;}ul{margin-left:20px;}</style>
+<p>Hey guys,</p>
+<p>We're making some important changes to puush and want to inform you of how it will affect our service.</p>
+<p>When we first conceived puush in 2010, we wanted to create a straightforward way to help us quickly share what was on our screens. Since then, we’ve seen a massive uptake and tremendous support from our users. The problem is that a tremendous majority of puushes aren’t being accessed again after 24 hours - in fact, only 10% of puushes are accessed after a month.</p>
+<p>puush to us is a quick way to share things on our screens. puush is not a data warehouse.</p>
+<p>We do not wish to become a "file locker", "file storage" or backup service. There are plenty of other solutions out there that do a much better job of this (e.g. Dropbox), so what we want to do is this:</p>
+<ul>
+<li>Stop offering permanent storage, and screenshots will expire after not being accessed for:
+<ul>
+<li>Free users: 1 month</li>
+<li>Pro users: up to 6 months</li>
+</ul>
+</li>
+<li>Remove the 200mb limit for free users</li>
+<li>Offer an optional Dropbox “sync” for pro users (i.e. automatically save a copy to dropbox)</li>
+</ul>
+<br/>
+<p>How this will affect you after the 1st of August 2013:</p>
+<ul>
+<li>You will no longer have an account storage limits. Feel free to puush as much as you want!</li>
+<li>We are going to start expiring screenshots. At this point, any screenshots which haven't been recently viewed by anyone will be automatically deleted after 1 month, or up to 6 months for pro users.</li>
+<li>If you wish to grab a copy of your screenshots before this begins, you can download an archive from your My Account page (Account -> Settings -> Pools -> Export).</li>
+</ul>
+<br/>
+<p>As an example, if you have puush'd images which are being used on a forum, as long as that thread is visited at least once a month (or up to 6 months as a pro user) your screenshots will <em>always be accessible</em>.</p>
+<p>We have some more awesome changes coming to our service in the near future! If you have any questions about these changes, don't hesitate to contact us at <a href='mailto:support@puush.me'>support@puush.me</a>.</p>
+<p>For those interested in switching across to pro, we have made the payment options available again <a href='https://puush.me/account/go_pro'>here</a>.</p>
+<p>Regards,<br/>
+The puush team<br/>
+<a href='http://puush.me'>http://puush.me</a></p>
+</div>
+<div class="clear"></div>
+</div>
+</div>
+<div id="footer">
+<div><a href='/tos'>Terms of Service</a> <a href='/dmca'>DMCA</a></div>
+</div>
+</div>
+</div>
+</body>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-423875-3']);
+  _gaq.push(['_trackPageview']);
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script>
+<script type="text/javascript" src="//assets.zendesk.com/external/zenbox/v2.6/zenbox.js"></script>
+<style type="text/css" media="screen, projection">@import url(//assets.zendesk.com/external/zenbox/v2.6/zenbox.css);</style>
+<script type="text/javascript">
+  if (typeof(Zenbox) !== "undefined") {
+    Zenbox.init({
+      dropboxID:   "20161851",
+      url:         "https://puush.zendesk.com",
+      tabID:       "support",
+      tabText:     "Support",
+      tabImageURL: "https://assets.zendesk.com/external/zenbox/images/tab_support.png",
+      tabColor:    "#6f6f6f",
+      tabPosition: "Left"
+    });
+  }
+</script>
+<script type="text/javascript" charset="utf-8">
+  if (navigator.userAgent.toLowerCase().indexOf('iphone') == -1)
+  {
+    var feedback_widget_options = {};
+    feedback_widget_options.display = "overlay";
+    feedback_widget_options.company = "puush";
+    feedback_widget_options.placement = "left";
+    feedback_widget_options.color = "#434D54";
+    feedback_widget_options.style = "idea";
+    var feedback_widget = new GSFN.feedback_widget(feedback_widget_options);
+  }
+</script>
+</html>

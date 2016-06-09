@@ -1,0 +1,1 @@
+wget -t 3 -vkmpr --max-redirect=100 --no-check-certificate -l 100 --follow-ftp puu.sh -H
