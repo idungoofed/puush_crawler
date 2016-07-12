@@ -24,7 +24,7 @@
 //VERBOSE
 //equivalent to wget -nv ...
 
-//QUITE
+//QUIET
 //equivalent to wget -q ...
 #define QUIET //QUIET //VERBOSE
 
